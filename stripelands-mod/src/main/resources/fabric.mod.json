@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "stripelands",
+  "version": "0.1.0",
+  "name": "Stripelands",
+  "description": "Replicates Bedrock Edition's float-precision 'Stripe Lands' glitch on Java Edition and removes the 30,000,000 block world edge.",
+  "authors": [
+    "you"
+  ],
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.stripelands.StripelandsMod"
+    ]
+  },
+  "mixins": [
+    "stripelands.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": ">=26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
